@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  background-color: #FFEDDA;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 auto 10px auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 9rem;
+  color: rgb(242, 242, 242);
+  clear:both;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 5px 0;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left:10%;
+  height: 125px;
+}
+
+.top_cloud {
+  position: relative;
+  margin-top:10px;
+  left: 30%;
+  top: 10%;
+  height: 100px;;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  width: 10%;
+  color: #3DB2FF;
+  border-width: 10px;
+}
+
+
+
+div {
+  display: inline-block;
+  width: 75%;
+  margin: 0.5% auto 0.5% auto;
+}
+
+.gif {
+  height: 70%;
+}
+
+.top-container {
+  background-color: #3DB2FF;
+  border-style: none;
+  width: 100%;
+  margin-top: 0%;
+}
+
+#me {
+  font-size: 1.75rem;
+  margin-top: 0%;
+  color: rgb(242, 242, 242);
+}
+
+.skill-row {
+  text-align:left;
+  line-height: 2;
+}
+
+.profile_img{
+  width: 20%;
+}
+
+.web_img{
+  width:20%;
+  margin-right: 30px;
+  float: left;
+}
+
+.python_img{
+  width: 20%;
+  margin-left: 30px;
+  float: right;
+}
+
+.self-desc{
+  line-height: 2;
+}
+
+.contact_me {
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-family: Georgia;
+   font-size: 20px;
+   font-weight: 300;
+   padding: 12px;
+   background-color: #3DB2FF;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact_me:hover {
+   background: #1E62D0;
+   border: solid #245397 1px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: rgb(35,38,41);
+  color: white;
+  width: 100%;
+  height:135px;
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding: 20px 0 0 0;
+}
+
+.footer-link{
+  color: rgb(186,191,196);
+  font-size:1.25rem;
+  text-transform:uppercase;
+  margin: 0 2.5% 5% 2.5%;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+  color:white;
+}
+
+.sw_cont:hover .sw_img{
+  display:inline-block;
+}
+
+.sw_img{
+  display:none;
+}
